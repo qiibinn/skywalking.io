@@ -1,2 +1,2 @@
 # skywalking.org
-sky-walking website [Not ready yet]
+sky-walking official website: http://skywalking.org/
