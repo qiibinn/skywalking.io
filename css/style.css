@@ -7046,7 +7046,11 @@ body.landing-page {
   background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
 }
 .landing-page .header-back.two {
-  background: url('../img/landing/header_two.jpg') 50% 0 no-repeat;
+  // background: url('../img/landing/header_two.jpg') 50% 0 no-repeat;
+  background: -webkit-linear-gradient(left top, #032f3a , #82b0c0);
+  background: -o-linear-gradient(bottom right, #032f3a, #82b0c0);
+  background: -moz-linear-gradient(bottom right, #032f3a, #82b0c0);
+  background: linear-gradient(to bottom right, #032f3a , #82b0c0);
 }
 .landing-page .carousel {
   height: 470px;
@@ -7162,6 +7166,12 @@ body.landing-page {
 }
 .landing-page .features-text {
   margin-top: 40px;
+}
+.landing-page .features-text img{
+  position: absolute;
+}
+.landing-page .features-content {
+  margin-left: 70px;
 }
 .landing-page .features small {
   color: #1ab394;
